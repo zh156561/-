@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>下拉菜单</title>
+
+
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="header">
+			<!-- logo位置 -->
+			<div class="logo">
+				<p>logo</p>
+			</div>
+
+			<!-- 导航栏 -->
+			<div class="headerRight">
+
+			</div>
+		</div>
+
+		<!-- 中间内容部分 -->
+		<div class="center">
+			<!-- 左菜单 -->
+			<div class="leftPull">
+				<ul class="muiList">
+
+					<li class="mui" data-n="0">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-adn fa-1x" aria-hidden="true"></i>
+								<span>菜单一</span>
+							</div>
+							<!-- 箭头 -->
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单一子菜单1</a></li>
+							<li><a href="#">菜单一子菜单2</a></li>
+							<li><a href="#">菜单一子菜单3</a></li>
+							<li><a href="#">菜单一子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="1">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-address-card-o fa-1x" aria-hidden="true"></i>
+								<span>菜单二</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单二子菜单1</a></li>
+							<li><a href="#">菜单二子菜单2</a></li>
+							<li><a href="#">菜单二子菜单3</a></li>
+							<li><a href="#">菜单二子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="2">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-cloud-upload fa-1x" aria-hidden="true"></i>
+								<span>菜单三</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单三子菜单1</a></li>
+							<li><a href="#">菜单三子菜单2</a></li>
+							<li><a href="#">菜单三子菜单3</a></li>
+							<li><a href="#">菜单三子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="3">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-creative-commons fa-1x" aria-hidden="true"></i>
+								<span>菜单四</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单四子菜单1</a></li>
+							<li><a href="#">菜单四子菜单2</a></li>
+							<li><a href="#">菜单四子菜单3</a></li>
+							<li><a href="#">菜单四子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="4">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa fa-university fa-1x" aria-hidden="true"></i>
+								<span>菜单五</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单五子菜单1</a></li>
+							<li><a href="#">菜单五子菜单2</a></li>
+							<li><a href="#">菜单五子菜单3</a></li>
+							<li><a href="#">菜单五子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="5">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa fa-paw fa-1x" aria-hidden="true"></i>
+								<span>菜单六</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单六子菜单1</a></li>
+							<li><a href="#">菜单六子菜单2</a></li>
+							<li><a href="#">菜单六子菜单3</a></li>
+							<li><a href="#">菜单六子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="6">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-pie-chart fa-1x" aria-hidden="true"></i>
+								<span>菜单七</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单七子菜单1</a></li>
+							<li><a href="#">菜单七子菜单2</a></li>
+							<li><a href="#">菜单七子菜单3</a></li>
+							<li><a href="#">菜单七子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="7">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-pie-chart fa-1x" aria-hidden="true"></i>
+								<span>菜单八</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单八子菜单1</a></li>
+							<li><a href="#">菜单八子菜单2</a></li>
+							<li><a href="#">菜单八子菜单3</a></li>
+							<li><a href="#">菜单八子菜单4</a></li>
+						</ul>
+					</li>
+
+					<li class="mui" data-n="8">
+						<ul class="mui-title">
+							<div class="mui_left">
+								<i class="fa fa-codepen fa-1x" aria-hidden="true"></i>
+								<span>菜单九</span>
+							</div>
+
+							<div class="mui_right">
+								<i class="fa fa-angle-right dropdown" aria-hidden="true"></i>
+							</div>
+						</ul>
+						<ul class="submenu list">
+							<li><a href="#">菜单九子菜单1</a></li>
+							<li><a href="#">菜单九子菜单2</a></li>
+							<li><a href="#">菜单九子菜单3</a></li>
+							<li><a href="#">菜单九子菜单4</a></li>
+						</ul>
+					</li>
+
+				</ul> 
+			</div>
+
+			<!-- 右内容区 -->
+			<div class="rightContent">
+
+			</div>
+		</div>
+
+		<div class="bottom">
+
+		</div>
+
+		<script src="./js/demo.js"></script>
+		<!-- <script src="./js/shell.js"></script> -->
+		<!-- <script src="./js/Jq.js"></script> -->
+
+
+	</body>
+</html>
